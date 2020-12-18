@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reloj</title>
+    <link rel="stylesheet" href="styles/reloj.css">
+</head>
+<body id="body">
+    <br/><br/>
+    <nav><a href="primer_pagina.html">inicio</a></nav>
+    <div class="widget">
+        <div class="fecha">     
+            <p id="diaSemana"></p>
+            <p id="dia"></p>
+            <p id="mes"> </p>
+            <p id="año"></p>
+        </div>
+
+        <div class="ladoUno" onclick="anterior()"><p><</p></div>
+        <div class="ladoDos" onclick="siguiente()"><p>></p></div>
+
+        <div class="reloj">
+            <p id="horas"></p>
+            <p>:</p>
+            <p id="minutos"></p>
+            <p>:</p>
+            <p id="segundos"></p>
+        </div>
+    </div>
+    <script src="js/reloj.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.ini {
+  background-image: url("images/shutterstock_526821523.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;  /*la unidad de medida vh hace referencia al tamaño de pantalla que podemos ver en el navegador*/
+}
+
+.barra {
+  padding: 1rem;
+  background-color: rgba(0, 0, 51, 0.75);  /*rgba indica los colores en rgb y un parametro para la transparencia*/
+  color: white;
+  font-family: cursive;
+}
+
+.barra h3{
+  display: inline;
+  margin-right: 50%;
+}
+
+#l{
+  display: inline;
+  list-style-type: none;
+}
+
+.barra li {
+  display: inline;
+  text-align: center;
+  margin-left: 1.5rem;
+}
+
+.barra a{
+  padding: 1.5rem;
+  color:inherit;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.barra a:hover {
+  background-color: rgba(70, 70, 70, 0.75);
+}
+
+.bienvenida {
+  font-family: sans-serif;
+  padding: 2rem;
+  margin: auto;
+  margin-top:25vh;
+  width: 25rem;
+  border: 1px;
+  border-radius: 1rem;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 51, 0.6);
+}
+
+.bienvenida header{
+  font-size: 2rem;
+}
+
+.bienvenida p {
+  font-size: 1.25rem;
+}
+
+.flecha {
+  text-align: center;
+}
+
+.skills {
+height: 100vh;
+background-image: url("images/1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 1rem;
+}
+
+
+.card {
+  margin: 5rem;
+  justify-content: space-between;
+}
+
+.icono {
+  margin: 1rem;
+  height: 50px;
+  width: 50px;
+}
+
+.proyects {
+  background-image: url("images/tribute_to_steve-wallpaper-3554x1999.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  height: 100vh;
+}
+
+.aboutme{
+  padding:2rem;
+  height: 100vh;
+  background-image: url("images/425260-computer-Avid_Technology-simple.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sobremi{
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 10rem;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+.sobremi p{
+font-size: 1.5rem;
+font-weight: bold;
+font-family: italic;
+}
+
+.contacto {
+  padding: 1rem;
+  color: white;
+  background-color: black;
+}
+
+.contacto p{
+  display: inline;
+}
+
+.contact-icon{
+  width: 3%;
+}
+
+footer {
+  text-align: center;
+}

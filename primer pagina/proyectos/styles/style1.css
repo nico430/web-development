@@ -1,0 +1,26 @@
+html{
+    background-color: darkgray;
+    padding: 10px;
+    margin: 5px;
+}
+
+#container{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+input{
+    border-radius: 5px;
+}
+
+#resultado{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 20%;
+    margin: 10px;
+}
